@@ -1,0 +1,42 @@
+export CONTACTEMAIL=${RCPT:-'simon.meggle@consol.de'}
+
+export NOTIFICATIONTYPE=${TYPE:-'PROBLEM'}
+export NOTIFICATIONCOMMENT='TestNotificationComment'
+export HOSTNAME='dbsrv16-prod.company.local'
+export HOSTALIAS='Informix Datenbank Entwicklung und Test'
+export HOSTSTATE=${STATE:-'UP'}
+export HOSTADDRESS='127.1.1.1'
+export SHORTDATETIME='10-13-2000 00:30:28'
+export HOSTOUTPUT='Test Host output'
+export LONGHOSTOUTPUT='Test Long Host output'
+export HOSTPERFDATA='test=9999\;1\;2\;\;'
+export ACKAUTHOR='Simon Meggle testackautor'
+export ACKCOMMENT='Test Ack comment'
+export HOSTDURATION='99h 09m 09s'
+export HOSTEVENTID='123456789'
+export LASTHOSTEVENTID='987654321'
+
+export SERVICEDESC='Windows Standard Speicher'
+export SERVICEDISPLAYNAME='Ein exemplarischer Svc-Displayname'
+export SERVICESTATE=${STATE:-'OK'}
+export SERVICEOUTPUT='$SERVICESTATE: 1370063'
+export LONGSERVICEOUTPUT='test Longserviceoutput'
+export SERVICEPERFDATA='serviceperf=888\;4\;5\;\;'
+export SERVICEEVENTID='4444444'
+export LASTSERVICEEVENTID='22222'
+export SERVICEDURATION='99h 09m 09s'
+
+export LASTSERVICECHECK='1484235204'
+export LASTSERVICESTATECHANGE='1484235203'
+
+export LASTHOSTCHECK='1484235204'
+export LASTHOSTSTATECHANGE='1484235203'
+
+# Custom macros
+export HOSTFIRMA='MyCompany'
+export HOSTSTANDORT='OverTheRainbow'
+export HOSTRAUM='Rechenzentrum / K-Fallraum'
+export HOSTTYP='Server'
+export HOSTMODELL='VMware, Inc.,VMware Virtual Platform'
+export HOSTTEAM='Server'
+export HOSTPRIO=1
