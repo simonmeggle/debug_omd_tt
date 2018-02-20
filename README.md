@@ -4,6 +4,8 @@ Debug Template Toolkit files on OMD (Open Monitoring Distribution, https://labs.
 ## Purpose 
 This script was written to simplify the debugging of Template Toolkit files used in OMD for notifications (`notify-by-email.pl`). 
 
+The script makes it easy to test TT templates with an number of variables. They only have to be set in the `debug_tt.rc` file. Each variable in this file will be passed to the `tpage` command (in mode "t") or to the notification script (mode "m"). )
+
 ## Usage 
 
 ### Print processed template to STDOUT
